@@ -14,6 +14,10 @@
 		19ED79A71EB6DE4300D58F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ED79A51EB6DE4300D58F16 /* LaunchScreen.storyboard */; };
 		19ED79B21EB6DE4300D58F16 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED79B11EB6DE4300D58F16 /* SlideshowAppTests.swift */; };
 		19ED79BD1EB6DE4300D58F16 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED79BC1EB6DE4300D58F16 /* SlideshowAppUITests.swift */; };
+		19ED79CD1EB6DF7B00D58F16 /* 012a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19ED79CA1EB6DF7B00D58F16 /* 012a.jpg */; };
+		19ED79CE1EB6DF7B00D58F16 /* 007a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19ED79CB1EB6DF7B00D58F16 /* 007a.jpg */; };
+		19ED79CF1EB6DF7B00D58F16 /* 009a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19ED79CC1EB6DF7B00D58F16 /* 009a.jpg */; };
+		19ED79D11EB8D66900D58F16 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED79D01EB8D66900D58F16 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		19ED79B81EB6DE4300D58F16 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19ED79BC1EB6DE4300D58F16 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		19ED79BE1EB6DE4300D58F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19ED79CA1EB6DF7B00D58F16 /* 012a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 012a.jpg; sourceTree = "<group>"; };
+		19ED79CB1EB6DF7B00D58F16 /* 007a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 007a.jpg; sourceTree = "<group>"; };
+		19ED79CC1EB6DF7B00D58F16 /* 009a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 009a.jpg; sourceTree = "<group>"; };
+		19ED79D01EB8D66900D58F16 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,9 @@
 				19ED79B01EB6DE4300D58F16 /* SlideshowAppTests */,
 				19ED79BB1EB6DE4300D58F16 /* SlideshowAppUITests */,
 				19ED799A1EB6DE4300D58F16 /* Products */,
+				19ED79CA1EB6DF7B00D58F16 /* 012a.jpg */,
+				19ED79CB1EB6DF7B00D58F16 /* 007a.jpg */,
+				19ED79CC1EB6DF7B00D58F16 /* 009a.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +110,7 @@
 			children = (
 				19ED799C1EB6DE4300D58F16 /* AppDelegate.swift */,
 				19ED799E1EB6DE4300D58F16 /* ViewController.swift */,
+				19ED79D01EB8D66900D58F16 /* PhotoViewController.swift */,
 				19ED79A01EB6DE4300D58F16 /* Main.storyboard */,
 				19ED79A31EB6DE4300D58F16 /* Assets.xcassets */,
 				19ED79A51EB6DE4300D58F16 /* LaunchScreen.storyboard */,
@@ -237,7 +249,10 @@
 			files = (
 				19ED79A71EB6DE4300D58F16 /* LaunchScreen.storyboard in Resources */,
 				19ED79A41EB6DE4300D58F16 /* Assets.xcassets in Resources */,
+				19ED79CE1EB6DF7B00D58F16 /* 007a.jpg in Resources */,
 				19ED79A21EB6DE4300D58F16 /* Main.storyboard in Resources */,
+				19ED79CD1EB6DF7B00D58F16 /* 012a.jpg in Resources */,
+				19ED79CF1EB6DF7B00D58F16 /* 009a.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +279,7 @@
 			files = (
 				19ED799F1EB6DE4300D58F16 /* ViewController.swift in Sources */,
 				19ED799D1EB6DE4300D58F16 /* AppDelegate.swift in Sources */,
+				19ED79D11EB8D66900D58F16 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGDW5FKM77;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroyuki.okinoi.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGDW5FKM77;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroyuki.okinoi.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +530,7 @@
 				19ED79C31EB6DE4300D58F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19ED79C41EB6DE4300D58F16 /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +539,7 @@
 				19ED79C61EB6DE4300D58F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19ED79C71EB6DE4300D58F16 /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +548,7 @@
 				19ED79C91EB6DE4300D58F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
